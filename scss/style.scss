@@ -1,0 +1,146 @@
+html {
+  font-size: 16px;
+  font-family: "Baskerville";
+}
+
+body {
+  margin: 0;
+  background-image: url("https://static.pexels.com/photos/154246/pexels-photo-154246.jpeg");
+  background-position: center;
+  //height: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.background {
+  /* border:1px red solid;*/
+  flex-direction: column;
+  align-items: center;
+  height: 50rem;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: "Baskerville";
+  font-weight: 100;
+  letter-spacing: 0.3rem;
+  text-shadow: 1px 1px 7px gray;
+  margin-top: 3rem;
+  font-size: 3.2rem;
+}
+
+.quote-background {
+  opacity: 0.7;
+  letter-spacing: 0.1rem;
+  background-color: -moz-linear-gradient(
+    45deg,
+    rgba(125, 138, 153, 1) 0%,
+    rgba(125, 162, 193, 0) 50%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(125, 138, 153, 1) 0%,
+    rgba(125, 162, 193, 0) 50%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    rgba(125, 138, 153, 1) 0%,
+    rgba(125, 162, 193, 0) 50%,
+    rgba(125, 185, 232, 0) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#7d8a99",
+      endColorstr="#007db9e8",
+      GradientType=1
+    ); /* IE6-9 fallback on horizontal gradient */
+  width: 100%;
+  margin-top: 2.3rem;
+  height: 15rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  flex-direction: column;
+  margin-top: 1.2rem;
+}
+
+.quote p {
+  width: 35rem;
+  /*border:1px red solid;*/
+  display: flex;
+  justify-content: center;
+  line-height: 1.4rem;
+  padding-top: 1rem;
+  width: 80%;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 480px) {
+  .quote p {
+    width: 80%;
+    font-size: 12px;
+    line-height: 1.2rem;
+  }
+}
+
+.background .quote {
+  justify-content: center;
+  /*border:3px black solid;*/
+  align-items: center;
+}
+
+
+
+button {
+  margin-top: 1rem;
+  transition: all 0.2s ease;
+}
+
+.button-style {
+  font-family:"Baskerville";
+  font-size:1rem;
+  opacity: 0.8;
+  font-weight:semi-bold;
+  border-radius: 13px;
+ background-color:rgba(10,12,53,0.0);
+  border: white 3px solid;
+  color: white;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom:0rem;
+  padding-top:0rem;
+  letter-spacing:.2rem;
+}
+
+.fa-twitter{
+  font-weight:bold;
+ 
+}
+
+button:focus {
+  outline: 0;
+}
+button:hover {
+  box-shadow: 3px 3px gray;
+  border-radius: 15px;
+}
+
+button:active {
+ // background-color:white;
+  color:darkgray;
+  box-shadow:none;
+}
+

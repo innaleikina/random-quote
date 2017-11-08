@@ -34,11 +34,29 @@ body {
   font-size: 3rem;
 }
 
+.title-mobile{
+  display:none;
+}
+
 @media only screen and (max-width: 480px) {
-  .title{
+  .title-mobile{
     font-size:1.5rem;
-    color:green;
+    color:rgba(0,0,0,0.3);
+    text-align: center;
+    font-family: "Baskerville";
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+  /*  text-shadow: 1px 1px 7px rgba(100, 101, 102,0.5) ;*/
+    margin-top: 3rem;
+    display:flex;
+    line-height:2.6rem;
+
   }
+
+.title{
+  display:none;
+}
+
 }
 
 .quote-background {

@@ -41,7 +41,7 @@ body {
 @media only screen and (max-width: 480px) {
   .title-mobile{
     font-size:1.5rem;
-    color:rgba(0,0,0,0.3);
+    color:rgba(0,0,0,0.5);
     text-align: center;
     font-family: "Baskerville";
     font-weight: 100;
